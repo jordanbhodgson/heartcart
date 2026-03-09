@@ -172,7 +172,7 @@ function Hero() {
               className="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-white/60"
             >
               <motion.span animate={{ scale: [1, 1.4, 1] }} transition={{ repeat: Infinity, duration: 2 }} className="w-2 h-2 rounded-full bg-green-400 inline-block" />
-              Delivering across the Coachella Valley
+              Delivering across the greater Palm Springs area
             </motion.div>
 
             <motion.h1 variants={stagger} initial="hidden" animate="show" className="text-5xl sm:text-7xl lg:text-7xl font-black tracking-tighter leading-[1.15] mb-6 pb-3 overflow-visible" style={{ perspective: 1000 }}>
