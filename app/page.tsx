@@ -243,14 +243,14 @@ function Hero() {
 
             {/* Neon border ring */}
             <div
-              className="absolute -inset-px rounded-3xl pointer-events-none z-10"
+              className="absolute -inset-[3px] rounded-3xl pointer-events-none z-10"
               style={{
                 background: "linear-gradient(135deg, #e879f966, #818cf844, #22d3ee66)",
                 mask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
                 WebkitMask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
                 maskComposite: "exclude",
                 WebkitMaskComposite: "xor",
-                padding: "1px",
+                padding: "3px",
               }}
             />
 
