@@ -177,7 +177,7 @@ function Hero() {
 
             <motion.h1 variants={stagger} initial="hidden" animate="show" className="text-5xl sm:text-7xl lg:text-7xl font-black tracking-tighter leading-[1.15] mb-6 pb-3 overflow-visible" style={{ perspective: 1000 }}>
               <span className="block text-white mb-2">
-                <AnimatedWord word="Gifts" />{" "}<AnimatedWord word="of" />{" "}<AnimatedWord word="gratitude," gradient />
+                                <AnimatedWord word="Gifts" />{" "}<AnimatedWord word="of" />{" "}<AnimatedWord word="gratitude," gradient />{" "}🥹
               </span>
               <span className="block">
                 <AnimatedWord word="made" />{" "}
